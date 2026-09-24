@@ -1,0 +1,15 @@
+generated: '2026-09-24'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.alami.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 12 17:59:49 2026 GMT
+  hsts: false
+domains:
+- domain: alami.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
